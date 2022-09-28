@@ -4,9 +4,9 @@
 class JsonEnv < Formula
     desc "json_env is dotenv, but with JSON." 
     homepage "https://github.com/brodo/json_env"
-    url "https://github.com/brodo/json_env/releases/download/v1.0.18/json_env-v1.0.18-x86_64-macos.tar.xz"
-    sha256 "f110e9d79f2aace74b6ceabed4eb43b452fa8fb988302907f15d3a6afcf86b10"
-    version "1.0.18"
+    url "https://github.com/brodo/json_env/archive/refs/tags/v1.0.21.zip"
+    sha256 "41902db2fc8b131ea15e3068527514e644914846a7b27525d73548d5710e010a"
+    version "1.0.21"
     depends_on "rust" => :build
   
     def install
